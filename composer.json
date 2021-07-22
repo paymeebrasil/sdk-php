@@ -1,0 +1,32 @@
+{
+  "name": "paymee/paymee-php",
+  "description": "SDK Paymee for PHP",
+  "type": "library",
+  "keywords": [
+    "paymee",
+    "paymee-php",
+    "paymee-php-sdk"
+  ],
+  "homepage": "https://paymee.com.br",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Junior Maia",
+      "email": "comoquepode@gmail.com",
+      "homepage": "https://jrmaia.github.io/"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Paymee\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Paymee\\Test\\": "tests"
+    }
+  }
+}
